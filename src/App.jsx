@@ -1,13 +1,18 @@
 import './App.css'
-import Home from './Pages/Home';
+import Nav from './components/Nav'
+import HomePage from './pages/HomePage'
+
+export const u = 12
+console.log('exporting u really screws up HMR :(', u)
 
 
 function App() {
  
   return (
-  <div> 
-    <Home />  
-  </div>
+     <div className="h-screen "> 
+     <Nav />
+      <HomePage />
+    </div>
   )
 }
 

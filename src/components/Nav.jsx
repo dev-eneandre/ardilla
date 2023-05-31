@@ -5,17 +5,20 @@ import { AiFillCaretDown, AiOutlineDown } from "react-icons/ai";
 import { FiChevronDown } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+export function setFoo(val){ foo = val }
+
 const Nav = () => {
   const [activeNav, setactiveNav] = useState(false);
+ 
   return (
-    <div className="flex justify-between items-center h-24 border-b-2 border-[#825eb323] md:px-28 px-14 text-white ">
+    <div className="flex justify-between items-center top-0 sticky h-24 bg-[rgba(36,0,83,1)]  md:px-28 px-5 text-white ">
       {/* logo */}
       <div className="cursor-pointer">
         <img src={Logo} alt="ardilla logo" />
       </div>
       {/* links  */}
       <div
-        className={`md:w-[470px] w-full  md:static absolute text-sm md:h-auto h-screen ${
+        className={`md:w-[470px] w-full  md:static absolute text-sm md:h-auto h-screen z-40 ${
           activeNav
             ? "md:translate-x-0  translate-x-[-150%] "
             : "  bg-[rgba(36,0,83,1)] top-0 right-0 translate-x-[-0%]"

@@ -8,6 +8,7 @@ import Yellow from "../assets/images/svg/yellow.svg";
 import Pink from "../assets/images/svg/pink.svg";
 import Purple from "../assets/images/svg/purple.svg";
 import Green from "../assets/images/svg/green.svg";
+import TestimonialSwiper from "../components/TestimonialSwiper";
 
 export function setFoo(val) {
   foo = val;
@@ -166,6 +167,13 @@ const HomePage = () => {
           </div>
     
         </div>
+      </div>
+
+      {/* TESTIMONIAL SWIPER  */}
+      <div className="bg-white h-screen px-10 py-10 text-[rgba(61,0,114,1)]">
+        <h5 className=" text-5xl font-bold ">Don’t Take Our <span className="text-[rgba(232,53,109,1)]">Word</span> For It</h5>
+        <p className=" text-sm py-6">Listen to testimonials from Ardilla users building wealth</p>
+        <TestimonialSwiper />
       </div>
     </div>
   );

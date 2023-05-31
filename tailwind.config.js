@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
     extend: {
+      display : ["group-hover"],
       backgroundImage: {
         'home-bg': "url('./src/assets/images/png/background.png')",
         'arrow-bg': "url('./src/assets/images/png/arrowbg.png')",

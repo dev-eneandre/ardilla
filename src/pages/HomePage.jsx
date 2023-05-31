@@ -4,11 +4,17 @@ import BtnIcon from "../assets/images/svg/icon.svg";
 import SendWhite from "../assets/images/svg/send-white.svg";
 import ProductsSwiper from "../components/ProductsSwiper";
 import Clip from "../assets/images/png/clip.png";
+import SC from "../assets/images/png/screenshot.png";
 import Yellow from "../assets/images/svg/yellow.svg";
 import Pink from "../assets/images/svg/pink.svg";
 import Purple from "../assets/images/svg/purple.svg";
 import Green from "../assets/images/svg/green.svg";
 import TestimonialSwiper from "../components/TestimonialSwiper";
+import Zik from "../assets/images/svg/zikoko.svg"
+import TC from "../assets/images/svg/TechCrunch logo.svg"
+import Guard from "../assets/images/svg/Guardian.svg"
+import Press from "../assets/images/svg/Press reviews.svg"
+
 
 export function setFoo(val) {
   foo = val;
@@ -170,10 +176,24 @@ const HomePage = () => {
       </div>
 
       {/* TESTIMONIAL SWIPER  */}
-      <div className="bg-white h-screen px-10 py-10 text-[rgba(61,0,114,1)]">
+      <div className="bg-[rgba(243,244,246,1)] h-screen px-14 py-10 text-[rgba(61,0,114,1)]">
         <h5 className=" text-5xl font-bold ">Don’t Take Our <span className="text-[rgba(232,53,109,1)]">Word</span> For It</h5>
         <p className=" text-sm py-6">Listen to testimonials from Ardilla users building wealth</p>
         <TestimonialSwiper />
+      </div>
+      
+      {/* AVAILABLE ON WEB  */}
+      <div className="bg-[rgba(248,250,252,1)] h-screen">
+        <div className="flex justify-center items-center md:pt-20 pt-10 md:flex-row flex-col">
+          <img className="pr-7 " src={Zik} alt="" />
+          <img className="pr-7" src={TC} alt="" />
+          <img className="pr-7" src={Guard} alt="" />
+          <span className="border-r-2 border-gray-500 pl-7"></span>
+          <img className="pl-7 pr-7 " src={Press} alt="" />
+        </div>
+        <div >
+          <img className="mx-auto mt-10" src={SC} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -15,6 +15,11 @@ import Zik from "../assets/images/svg/zikoko.svg";
 import TC from "../assets/images/svg/TechCrunch logo.svg";
 import Guard from "../assets/images/svg/Guardian.svg";
 import Press from "../assets/images/svg/Press reviews.svg";
+import {SlSocialInstagram} from "react-icons/sl"
+import {TfiFacebook} from "react-icons/tfi"
+import {RiLinkedinFill} from "react-icons/ri"
+import {GrTwitter} from "react-icons/gr"
+
 
 const HomePage = () => {
   return (
@@ -285,7 +290,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="min-h-screen  px-20 pt-20">
+      <div className="min-h-full  px-20 pt-20">
         <div className=" flex justify-between md:flex-nowrap flex-wrap text-white text-sm  border-b-2 border-[rgba(209,213,219,1)] pb-10">
           <div>
             <h4 className="font-semibold py-2">Products</h4>
@@ -332,6 +337,18 @@ const HomePage = () => {
 
           </div>
 
+        </div>
+        <div className="flex justify-between py-10 text-white ">
+        <div>
+          <p className="pb-3 text-sm">© 2023 Ardilla. All right reserved</p>
+          <p className="text-xs">Ardilla operates under the coorperative license of Ardilla Multipurpose Cooperative Society, LSC 18245, We provide Savings and Fixed deposit services to our users</p>
+        </div>
+        <div className="flex justify-around">
+          <SlSocialInstagram className="text-4xl py-2 border-2 rounded-full mx-2" />
+          <TfiFacebook className="text-4xl py-2 border-2 rounded-full mx-2"/>
+          <RiLinkedinFill className="text-4xl py-2 border-2 rounded-full mx-2"/>
+          <GrTwitter className="text-4xl py-2 border-2 rounded-full mx-2" />
+        </div>
         </div>
       </div>
     </div>

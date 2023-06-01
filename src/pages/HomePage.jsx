@@ -5,16 +5,16 @@ import SendWhite from "../assets/images/svg/send-white.svg";
 import ProductsSwiper from "../components/ProductsSwiper";
 import Clip from "../assets/images/png/clip.png";
 import SC from "../assets/images/png/screenshot.png";
+import ImagePhone from "../assets/images/svg/image 53.svg";
 import Yellow from "../assets/images/svg/yellow.svg";
 import Pink from "../assets/images/svg/pink.svg";
 import Purple from "../assets/images/svg/purple.svg";
 import Green from "../assets/images/svg/green.svg";
 import TestimonialSwiper from "../components/TestimonialSwiper";
-import Zik from "../assets/images/svg/zikoko.svg"
-import TC from "../assets/images/svg/TechCrunch logo.svg"
-import Guard from "../assets/images/svg/Guardian.svg"
-import Press from "../assets/images/svg/Press reviews.svg"
-
+import Zik from "../assets/images/svg/zikoko.svg";
+import TC from "../assets/images/svg/TechCrunch logo.svg";
+import Guard from "../assets/images/svg/Guardian.svg";
+import Press from "../assets/images/svg/Press reviews.svg";
 
 export function setFoo(val) {
   foo = val;
@@ -22,6 +22,7 @@ export function setFoo(val) {
 
 const HomePage = () => {
   return (
+    
     <div className="bg-[rgba(36,0,83,1)]">
       {/* Welcome Section Of Home Page  */}
       <div className=" bg-home-bg bg-top bg-cover bg-no-repeat ">
@@ -110,7 +111,6 @@ const HomePage = () => {
         flex justify-between  flex-wrap
         "
         >
-         
           <div className="md:w-96 w-full h-3/4 md:p-7 p-1 md:mt-5 mt-10 hover:bg-[rgba(67,2,126,1)] rounded-2xl  cursor-pointer duration-100 ease-in-out ">
             <img
               src={Yellow}
@@ -136,7 +136,8 @@ const HomePage = () => {
 
             <h4 className="font-semibold text-2xl">DIB</h4>
             <p className="w-10/12 text-sm leading-7 pt-5">
-            Nothing beats an emergency quite like an emergency fund. With Ardilla you can get started building that emergency fund.
+              Nothing beats an emergency quite like an emergency fund. With
+              Ardilla you can get started building that emergency fund.
             </p>
 
             <p className="pt-5 font-semibold text-sm">Learn More</p>
@@ -151,12 +152,14 @@ const HomePage = () => {
 
             <h4 className="font-semibold text-2xl">Vault</h4>
             <p className="w-10/12 text-sm leading-7 pt-5">
-            Lock away excess funds you don't know what to do with. We can help you safeguard it till you are ready. It definitely beats spending it and wondering where all that money went to.
+              Lock away excess funds you don't know what to do with. We can help
+              you safeguard it till you are ready. It definitely beats spending
+              it and wondering where all that money went to.
             </p>
 
             <p className="pt-5 font-semibold text-sm">Learn More</p>
           </div>
-         
+
           <div className="md:w-96 w-full h-3/4 md:p-7 p-1 md:mt-5 mt-10 hover:bg-[rgba(67,2,126,1)] rounded-2xl cursor-pointer duration-100 ease-in-out">
             <img
               src={Green}
@@ -166,22 +169,27 @@ const HomePage = () => {
 
             <h4 className="font-semibold text-2xl">Grit</h4>
             <p className="w-10/12 text-sm leading-7 pt-5">
-            Become a VIP when you save more money with us. Enjoy better benefits.
+              Become a VIP when you save more money with us. Enjoy better
+              benefits.
             </p>
 
             <p className="pt-5 font-semibold text-sm">Learn More</p>
           </div>
-    
         </div>
       </div>
 
       {/* TESTIMONIAL SWIPER  */}
       <div className="bg-[rgba(243,244,246,1)] h-screen px-14 py-10 text-[rgba(61,0,114,1)]">
-        <h5 className=" text-5xl font-bold ">Don’t Take Our <span className="text-[rgba(232,53,109,1)]">Word</span> For It</h5>
-        <p className=" text-sm py-6">Listen to testimonials from Ardilla users building wealth</p>
+        <h5 className=" text-5xl font-bold ">
+          Don’t Take Our <span className="text-[rgba(232,53,109,1)]">Word</span>{" "}
+          For It
+        </h5>
+        <p className=" text-sm py-6">
+          Listen to testimonials from Ardilla users building wealth
+        </p>
         <TestimonialSwiper />
       </div>
-      
+
       {/* AVAILABLE ON WEB  */}
       <div className="bg-[rgba(248,250,252,1)] h-screen">
         <div className="flex justify-center items-center md:pt-20 pt-10 md:flex-row flex-col">
@@ -191,10 +199,89 @@ const HomePage = () => {
           <span className="border-r-2 border-gray-500 pl-7"></span>
           <img className="pl-7 pr-7 " src={Press} alt="" />
         </div>
-        <div >
+        <div>
           <img className="mx-auto mt-10" src={SC} alt="" />
         </div>
       </div>
+
+      {/* TRACTION  */}
+      <div className="bg-traction-bg min-h-[125vh] bg-center bg-no-repeat bg-cover px-16 ">
+        <h4 className="text-center md:pt-20 pt-10 text-5xl font-bold text-white">
+          Traction
+        </h4>
+        <p className="text-center py-4 text-white text-sm">
+          Our products and investments grossed 1.1 billion in 2022
+        </p>
+
+        <div className="flex md:flex-nowrap flex-wrap justify-between items-center pt-10">
+          <div
+            className="bg-[rgba(210,255,222,1)] h-[400px] w-[356px] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl
+            flex  justify-center items-center
+          "
+          >
+            <div className="">
+              <h3 className="text-[rgba(42,51,44,1)] text-sm">
+                Investment in{" "}
+                <span className="bg-[rgba(51,89,61,1)] text-white px-2">
+                  2022
+                </span>
+              </h3>
+              <h5 className="text-[rgba(42,51,44,1)] text-5xl font-bold">
+                ₦100M
+              </h5>
+            </div>
+          </div>
+          <div
+            className="bg-[rgba(200,193,253,1)] h-[400px] w-[356px] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl
+          flex  justify-center items-center 
+          "
+          >
+            <div className="">
+              <h3 className="text-[rgba(42,51,44,1)] text-sm">
+                Risk{" "}
+                <span className="bg-[rgba(53,41,138,1)] text-white px-2">
+                  Management
+                </span>
+              </h3>
+              <h5 className="text-[rgba(42,51,44,1)] text-5xl font-bold">
+                0% Risk
+              </h5>
+            </div>
+          </div>
+          <div
+            className="bg-[rgba(250,247,195,1)] h-[400px] w-[356px] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl
+          flex  justify-center items-center
+          "
+          >
+            <div className="">
+              <h3 className="text-[rgba(42,51,40,1)] text-sm">
+                Risk{" "}
+                <span className="bg-[#9F9704] text-white px-2">Management</span>
+              </h3>
+              <h5 className="text-[rgba(42,51,44,1)] text-5xl font-bold">
+                0% Risk
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-over-bg w-7/12 h-96 bg-no-repeat rounded-lg mx-auto -mt-28 px-14 flex justify-between items-center md:flex-nowrap flex-wrap">
+        <div>
+          <h3 className="text-white font-bold text-2xl  leading-8">
+            Download for free Start saving Today
+          </h3>
+          <button className="bg-white text-xs py-4 px-4 rounded-lg mt-10">
+            Download for free
+          </button>
+        </div>
+        <div>
+          <img className="w-full h-full object-cover" src={ImagePhone} alt="" />
+        </div>
+      </div>
+      {/* <div className="h-screen bg-[#8807F7]">
+
+      </div> */}
     </div>
   );
 };

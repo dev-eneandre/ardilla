@@ -338,7 +338,7 @@ const HomePage = () => {
           </div>
 
         </div>
-        <div className="flex justify-between py-10 text-white ">
+        <div className="flex justify-between py-10 text-white md:flex-nowrap flex-wrap">
         <div>
           <p className="pb-3 text-sm">© 2023 Ardilla. All right reserved</p>
           <p className="text-xs">Ardilla operates under the coorperative license of Ardilla Multipurpose Cooperative Society, LSC 18245, We provide Savings and Fixed deposit services to our users</p>

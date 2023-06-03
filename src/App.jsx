@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage'
 function App() {
  
   return (
-     <div className="h-screen "> 
+     <div className="h-screen font-gen "> 
      <Nav />
       <HomePage />
     </div>

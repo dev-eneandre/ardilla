@@ -5,7 +5,7 @@ import SendWhite from "../assets/images/svg/send-white.svg";
 import ProductsSwiper from "../components/ProductsSwiper";
 import Clip from "../assets/images/png/clip.png";
 import SC from "../assets/images/png/screenshot.png";
-import ImagePhone from "../assets/images/svg/imagef.svg";
+// import ImagePhone from "../assets/images/svg/imagef.svg";
 import Yellow from "../assets/images/svg/yellow.svg";
 import Pink from "../assets/images/svg/pink.svg";
 import Purple from "../assets/images/svg/purple.svg";
@@ -287,7 +287,7 @@ const HomePage = () => {
           </button>
         </div>
         <div>
-          <img className="w-full h-full object-cover" src={ImagePhone} alt="" />
+          <img className="w-full h-full object-cover" src={Phone} alt="" />
         </div>
       </div>
 

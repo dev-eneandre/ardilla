@@ -287,7 +287,7 @@ const HomePage = () => {
           </button>
         </div>
         <div>
-          <img className="w-full h-full object-cover" src={ImagePhone} alt="" />
+          {/* <img className="w-full h-full object-cover" src={ImagePhone} alt="" /> */}
         </div>
       </div>
 

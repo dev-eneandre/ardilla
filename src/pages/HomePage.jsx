@@ -5,16 +5,16 @@ import SendWhite from "../assets/images/svg/send-white.svg";
 import ProductsSwiper from "../components/ProductsSwiper";
 import Clip from "../assets/images/png/clip.png";
 import SC from "../assets/images/png/screenshot.png";
-import ImagePhone from "../assets/images/svg/image 53.svg";
+import ImagePhone from "../assets/images/svg/imagef.svg";
 import Yellow from "../assets/images/svg/yellow.svg";
 import Pink from "../assets/images/svg/pink.svg";
 import Purple from "../assets/images/svg/purple.svg";
 import Green from "../assets/images/svg/green.svg";
 import TestimonialSwiper from "../components/TestimonialSwiper";
 import Zik from "../assets/images/svg/zikoko.svg";
-import TC from "../assets/images/svg/TechCrunch logo.svg";
-import Guard from "../assets/images/svg/Guardian.svg";
-import Press from "../assets/images/svg/Press reviews.svg";
+import TC from "../assets/images/svg/techcrunch_logo.svg";
+import Guard from "../assets/images/svg/guardian.svg";
+import Press from "../assets/images/svg/press_reviews.svg";
 import {SlSocialInstagram} from "react-icons/sl"
 import {TfiFacebook} from "react-icons/tfi"
 import {RiLinkedinFill} from "react-icons/ri"

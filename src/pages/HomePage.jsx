@@ -5,14 +5,14 @@ import SendWhite from "../assets/images/svg/send-white.svg";
 import ProductsSwiper from "../components/ProductsSwiper";
 import Clip from "../assets/images/png/clip.png";
 import SC from "../assets/images/png/screenshot.png";
-// import ImagePhone from "../assets/images/svg/imagef.svg";
+import ImagePhone from "../assets/images/svg/imagef.svg";
 import Yellow from "../assets/images/svg/yellow.svg";
 import Pink from "../assets/images/svg/pink.svg";
 import Purple from "../assets/images/svg/purple.svg";
 import Green from "../assets/images/svg/green.svg";
 import TestimonialSwiper from "../components/TestimonialSwiper";
 import Zik from "../assets/images/svg/zikoko.svg";
-import TC from "../assets/images/svg/crunch.svg";
+// import TC from "../assets/images/svg/crunch.svg";
 import Guard from "../assets/images/svg/guardian.svg";
 // import Press from "../assets/images/svg/press_reviews.svg";
 import {SlSocialInstagram} from "react-icons/sl"
@@ -198,7 +198,7 @@ const HomePage = () => {
         <div className="bg-[rgba(248,250,252,1)] h-screen">
           <div className="flex justify-center items-center md:pt-20 pt-10 md:flex-row flex-col">
             <img className="pr-7 " src={Zik} alt="" />
-            <img className="pr-7" src={TC} alt="" />
+            {/* <img className="pr-7" src={TC} alt="" /> */}
             <img className="pr-7" src={Guard} alt="" />
             <span className="border-r-2 border-gray-500 pl-7"></span>
             {/* <img className="pl-7 pr-7 " src={Press} alt="" /> */}
@@ -287,7 +287,7 @@ const HomePage = () => {
           </button>
         </div>
         <div>
-          {/* <img className="w-full h-full object-cover" src={ImagePhone} alt="" /> */}
+          <img className="w-full h-full object-cover" src={ImagePhone} alt="" />
         </div>
       </div>
 

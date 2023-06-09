@@ -19,6 +19,7 @@ import {SlSocialInstagram} from "react-icons/sl"
 import {TfiFacebook} from "react-icons/tfi"
 import {RiLinkedinFill} from "react-icons/ri"
 import {GrTwitter} from "react-icons/gr"
+// import HomeBg from "../assets/images/png/  "
 
 
 const HomePage = () => {

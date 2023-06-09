@@ -12,10 +12,10 @@ export default {
         'gen' : ["Space Grotesk", "sans-serif"]
       },
       backgroundImage: {
-        'home-bg': "url('./src/assets/images/png/background.png')",
-        'arrow-bg': "url('./src/assets/images/png/arrowbg.png')",
-        'traction-bg': "url('./src/assets/images/png/traction.png')",
-        'over-bg': "url('./src/assets/images/png/over.png')",
+        'home-bg': "url('../src/assets/images/png/background.png')",
+        'arrow-bg': "url('../src/assets/images/png/arrowbg.png')",
+        'traction-bg': "url('../src/assets/images/png/traction.png')",
+        'over-bg': "url('../src/assets/images/png/over.png')",
 
       }
     },

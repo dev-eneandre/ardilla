@@ -14,7 +14,7 @@ import TestimonialSwiper from "../components/TestimonialSwiper";
 import Zik from "../assets/images/svg/zikoko.svg";
 // import TC from "../assets/images/svg/techcrunch_logo.svg";
 import Guard from "../assets/images/svg/guardian.svg";
-import Press from "../assets/images/svg/press_reviews.svg";
+// import Press from "../assets/images/svg/press_reviews.svg";
 import {SlSocialInstagram} from "react-icons/sl"
 import {TfiFacebook} from "react-icons/tfi"
 import {RiLinkedinFill} from "react-icons/ri"
@@ -201,7 +201,7 @@ const HomePage = () => {
             {/* <img className="pr-7" src={TC} alt="" /> */}
             <img className="pr-7" src={Guard} alt="" />
             <span className="border-r-2 border-gray-500 pl-7"></span>
-            <img className="pl-7 pr-7 " src={Press} alt="" />
+            {/* <img className="pl-7 pr-7 " src={Press} alt="" /> */}
           </div>
           <div>
             <img className="mx-auto mt-10" src={SC} alt="" />
